@@ -14,7 +14,7 @@
 
 .the site has buttons and navigation bars that allows one to easily navigate the site.
 
-.one can also clone or download the site's code from 
+.one can also clone or download the site's code from https://github.com/fiona-niwiduhaye/pizza-project
 
 .then view it from a local computer using any preferred text editor
 
@@ -39,24 +39,13 @@ The website requires one to enter the size the select the crust and the topping 
 Then you are required to select the mode of delivery either you pick it up,or we deliver it to you at a cost.
 ## License
 
-MIT License (c) copyright 2020. All right Reserved 
-
-
-
-
-
-
-
 
 ## Live Link:......
-
-
-
 
 ## Contact
 If you have any question or contributions that would better this app, please email me at :fionaniwe@gmail.com
 
-
+MIT License (c) copyright 2020. All right Reserved 
 
 
 
