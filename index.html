@@ -6,10 +6,13 @@
     <title>Isaro Pizzeria</title>
     <link rel="stylesheet" href="./css/styles.css" type="text/css">
    <link rel="stylesheet" href="./css/bootstrap.css" type="text/css">
-  <script src="https://code.jquery.com/jquery-3.5.1.js"
-  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="crossorigin="anonymous"></script>
+   <script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
 
-  <script src="js/script.js"></script>
+
+  <script src="js/scripts.js"></script>
 </head>
 
     <body>
@@ -120,7 +123,7 @@
               <option> Choose the size </option>
               <option value="Small">Small @ 1000FRw</option>
               <option value="Medium">Medium @ 2000FRw</option>
-              <option value="Large">Large @ 3000FRw</option>
+              <option value="Large">Large @ 3500FRw</option>
             </select>
               </div>
             </div>
@@ -158,8 +161,63 @@
           </select>
           </div>
         <div class="col-4">
-  
-        </div>
-          </div>
+          
+      </form>
+  </div>
         
-        </form>
+        
+        
+        <br><br>
+        <div class="container">
+          <button type="button" class="btn btn-warning" data-toggle="modal" id="totalCost" data-target="#myModal">
+            Checkout
+          </button>
+          <div class="modal fade" id="myModal">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+  
+                <div class="modal-header">
+                  <h1 class="modal-title">Your Order</h1>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+  
+  
+                <div class="modal-body">
+                  <div class="odr">
+                    <h1>Your order !!!</h1>
+                    Your pizza size is: <p id="pz">Pizza Size</p>
+                    crust: <p id="cr">Crust</p>
+                    Topping: <p id="to"> Topping</p>
+                    Total ksh= <P id="tc">Total Cost</P>
+                    <h3><b>Delivery Method</b></h3>
+                    <button type="button" class="btn btn-info" data-dismiss="modal" id="delivery">Delivery</button>
+                    <button type="button" class="btn btn-info" data-dismiss="modal" id="pick">Pick-up</button>
+                  </div>
+                </div>
+  
+                <div class="modal-footer d-flex justify-content-center">
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        </div>
+        
+    
+
+
+  
+      <footer>
+        Contact us:
+        +250787612104<br>
+        isaropizzeria@gmail.com<br>
+        Isaro Pizzeria<br>
+        &copy Copyright 2020
+    </footer>
+  
+    </body>
+
+</html>
