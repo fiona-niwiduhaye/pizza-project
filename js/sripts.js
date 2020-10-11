@@ -1,5 +1,5 @@
 
- //business logic
+//business logic
 
 function order(size, crust, topping) {
     this.size = size;
@@ -47,12 +47,12 @@ order.prototype.cost = function () {
 
     return this.price;
 
-} 
+}
 
 var finalCharge = [];
-order.prototype.total= function(){
+order.prototype.total = function () {
     var Total = 0;
-    for (var order = 0; order < finalCharge.length; order ++) {
+    for (var order = 0; order < finalCharge.length; order++) {
         Total += finalCharge[order];
     }
     return Total;
@@ -79,18 +79,18 @@ $(document).ready(function () {
     });
 
 });
-           //delivery button
-        $("#delivery").click(function () {
-           prompt("please fill in your location")
-             prompt("please enter your your Phone number")
-            alert("Your pakage will arrive soon!")
-             alert("Your delivery cost is 500FRw")
-        });
+//delivery button
+$("#delivery").click(function () {
+    prompt("please fill in your location")
+    prompt("please enter your your Phone number")
+    alert("Your pakage will arrive soon!")
+    alert("Your delivery cost is 500FRw")
+});
 
-        $("#pick").click(function () {
-           alert("please visit our nearest branch near you to pick up your package!!")
-  });
-  
-  $('#myModal').on('shown.bs.modal', function () {
+$("#pick").click(function () {
+    alert("please visit our nearest branch near you to pick up your package!!")
+});
+
+$('#myModal').on('shown.bs.modal', function () {
     $('#myInput').trigger('focus')
-  })
+})
