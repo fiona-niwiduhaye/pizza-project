@@ -37,13 +37,13 @@
 
 The website requires one to enter the size the select the crust and the topping .
 Then you are required to select the mode of delivery either you pick it up,or we deliver it to you at a cost.
-## License
 
 
 ## Live Link:......
 
 ## Contact
 If you have any question or contributions that would better this app, please email me at :fionaniwe@gmail.com
+## License
 
 MIT License (c) copyright 2020. All right Reserved 
 
