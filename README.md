@@ -10,7 +10,7 @@
 2.Contact details including  address and phone number
 
 # Setup/Installation Requirements
-.click this link ...........to view the site.
+.click this link  https://fiona-niwiduhaye.github.io/pizza-project/  to view the site.
 
 .the site has buttons and navigation bars that allows one to easily navigate the site.
 
@@ -39,7 +39,9 @@ The website requires one to enter the size the select the crust and the topping 
 Then you are required to select the mode of delivery either you pick it up,or we deliver it to you at a cost.
 
 
-## Live Link:......
+## Live Link:
+
+link: https://fiona-niwiduhaye.github.io/pizza-project/
 
 ## Contact
 If you have any question or contributions that would better this app, please email me at :fionaniwe@gmail.com
